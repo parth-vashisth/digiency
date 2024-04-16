@@ -51,6 +51,42 @@
     border: 1px solid #373737;
     background-color: #FFF7F4;
 }
-.bgclr{
+
+.bgclr {
     background-color: #FFF7F4;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 73.2px;
+    text-align: left;
+    color: #373737;
+    margin-top: 100px;
+}
+
+.txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+    color: #7B7B7B;
+}
+
+.sec1-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    width: 182px;
+    background-color: #FF5300;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
 }
