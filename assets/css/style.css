@@ -205,3 +205,37 @@
     text-align: left;
     color: #373737;
 }
+
+.sec4-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: center;
+    color: #373737;
+}
+
+.gap-70 {
+    gap: 70px;
+}
+
+.newlink {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #7B7B7B;
+    padding: 15px;
+}
+
+.newlink:hover {
+    border-radius: 10px;
+    background-color: #FF5300;
+    color: white;
+    width: 100%;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
