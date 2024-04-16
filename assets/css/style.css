@@ -22,6 +22,14 @@
     color: #FF5300;
 }
 
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
 .logo {
     font-family: "Work Sans", sans-serif;
     font-size: 39.06px;
@@ -89,4 +97,77 @@
     height: 50px;
     border-radius: 5px;
     margin-top: 30px;
+}
+
+.line1 {
+    width: 40px;
+    border: 1px solid #FF5300;
+}
+
+.sec2-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FF5300;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sec2-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: center;
+    color: #373737;
+}
+
+.num {
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 73.2px;
+    text-align: left;
+    color: #EFEFEF;
+}
+
+.design {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    color: #373737;
+    margin-top: 15px;
+}
+
+.web {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    font-weight: 300;
+    line-height: 19.2px;
+    text-align: left;
+    color: #7B7B7B;
+}
+
+.lorem {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7B7B7B;
+    margin-top: 15px;
+}
+
+.parentbox {
+    box-shadow: 0px 1px 4px 0px #0000001A;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }
