@@ -244,15 +244,19 @@
 }
 
 .orange-box {
-    width: 266px;
-    height: 230px;
+    width: 80%;
+    height: 80%;
     position: absolute;
     background: #FF5300BF;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    top: -100%;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s linear;
+    z-index: 1;
 }
 
 .template {
@@ -266,8 +270,7 @@
 }
 
 .effect:hover .orange-box {
-    top: 20%;
-    left: 17%;
+    top: 50%;
 }
 
 .sec5-head {
@@ -364,4 +367,96 @@
 
 .next:hover {
     border: 1px solid #FF5300;
+}
+
+.sec6-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: left;
+    color: #373737;
+    margin-top: 15px;
+}
+
+.sec6-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7B7B7B;
+    margin-top: 18px;
+}
+
+.box {
+    box-shadow: 0px 1px 4px 0px #0000001A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+}
+
+.box-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: center;
+    color: #FF5300;
+}
+
+.box-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    font-weight: 300;
+    line-height: 19.2px;
+    text-align: center;
+    color: #373737;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.line2 {
+    width: 4px;
+    height: 134px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+}
+
+.gap-90 {
+    gap: 90px;
+}
+
+.newbox {
+    max-width: 1171px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FF5300;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+.col-head {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: left;
+}
+
+.col-txt {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
 }
