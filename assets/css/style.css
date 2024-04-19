@@ -434,6 +434,10 @@
     gap: 90px;
 }
 
+.mt-15 {
+    margin-top: 15px;
+}
+
 .newbox {
     max-width: 1171px;
     width: 100%;
@@ -459,4 +463,61 @@
     font-weight: 500;
     line-height: 30px;
     text-align: left;
+}
+
+.sec7-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: center;
+    color: #373737;
+    margin-top: 15px;
+}
+
+.graphic {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #373737;
+}
+
+.only-txt {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7B7B7B;
+    margin-top: 18px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.read {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    line-height: 24.72px;
+    width: 150px;
+    height: 50px;
+    background-color: #FF5300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.shadowbox {
+    box-shadow: 0px 1px 4px 0px #0000001A;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    padding-left: 13px;
+    background-color: white;
+    padding-right: 13px;
 }
