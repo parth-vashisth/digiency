@@ -369,7 +369,7 @@
     border: 1px solid #373737;
     position: absolute;
     top: 70%;
-    left: -5%;
+    left: -3%;
 }
 
 .next {
@@ -382,7 +382,7 @@
     border: 1px solid #373737;
     position: absolute;
     top: 70%;
-    right: -5%;
+    right: -3%;
 }
 
 .prev:hover svg path {
@@ -543,6 +543,11 @@
     text-align: center;
     margin-top: 25px;
 }
+.read:hover{
+    border: 2px solid #FF5300;
+    background-color: white;
+    color: #FF5300;
+}
 
 .shadowbox {
     box-shadow: 0px 1px 4px 0px #0000001A;
@@ -553,6 +558,10 @@
     background-color: white;
     padding-right: 13px;
     height: 100%;
+}
+
+.shadowbox:hover {
+    box-shadow: 0px 1px 4px 0px #FF5300;
 }
 
 .line3 {
@@ -584,7 +593,7 @@
 .sec8-box {
     background-color: #FF5300;
     box-shadow: 0px 1px 4px 0px #0000001A;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
     min-height: 200px;
     padding: 25px;
@@ -737,12 +746,16 @@
     display: none !important;
 }
 
+.mt-14 {
+    margin-top: 14px;
+}
+
 .line2 {
     display: none;
 }
 
-.w-1320px {
-    width: 1320px;
+.w-1140px {
+    width: 1140px;
 }
 
 .date {
@@ -793,20 +806,12 @@
 
 }
 
-@media (min-width:768px) {
-
-    .prev,
-    .next {
-        display: flex !important;
-    }
-}
+@media (min-width:768px) {}
 
 @media (min-width:992px) {
     .nav-icon {
         display: none;
     }
-
-
 
     .line2 {
         display: flex;
@@ -823,5 +828,16 @@
 
     .gap-lg-100 {
         gap: 100px !important;
+    }
+}
+
+@media (min-width:1200px) {
+    .overflow-x-scroll {
+        overflow-x: visible !important;
+    }
+
+    .prev,
+    .next {
+        display: flex !important;
     }
 }
