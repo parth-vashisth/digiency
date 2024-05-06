@@ -543,7 +543,8 @@
     text-align: center;
     margin-top: 25px;
 }
-.read:hover{
+
+.read:hover {
     border: 2px solid #FF5300;
     background-color: white;
     color: #FF5300;
@@ -733,13 +734,18 @@
     width: 58px;
     height: 58px;
     background-color: #FF5300;
-    display: flex;
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
     border-radius: 50px;
     cursor: pointer;
+    border: none;
 }
+
 
 .prev,
 .next {
